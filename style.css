@@ -1,0 +1,183 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+*{margin: 0; padding: 0;}
+
+@font-face {
+	font-family: 'Mont'; 
+	src: url(ttf/Montserrat-Bold.ttf); 
+}
+
+@font-face {
+	font-family: 'MontItal'; 
+	src: url(ttf/Montserrat-BoldItalic.ttf); 
+}
+
+#menu-nav {
+    background: url('images/Bgred.png') top center no-repeat;
+    background-size: cover;
+    z-index: 0;
+    height: 100px;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-menu{
+    list-style: none;
+    display: inline-flex;
+}
+
+.main-menu-item-logo{
+    text-align: center;
+}
+
+.main-menu-item{
+    margin-top: 20px;
+}
+.logo-img{
+    width: 75%;
+    padding-top: 5px;
+}
+
+
+
+#main-page{
+    background: url('images/yellowBack.jpg') top center no-repeat;
+    background-size: cover;
+    z-index: 0;
+    
+}
+
+.logoGucci-div{
+    display: flex;
+    justify-content: end;
+}
+
+.logoGucci{
+    width: 5%;
+    margin-top: 30px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1{
+    width: 70%;
+}
+
+.img2{
+    margin-top: 10%;
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+.main-page-content{
+    text-align: center;
+}
+
+.container-info{
+    display: flex;
+    justify-content: space-between;
+}
+.h1-top{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 10%;
+    font-family: Mont;
+    font-size: 40px;
+    color: #12192B;
+}
+.strelka{
+    width: 25%;
+}
+
+.p-top{
+    padding-top: 3%;
+    margin-right: 20%;
+    font-family: MontItal;
+    color: #12192B;
+}
+
+#secong-page{
+    background: url('images/Bgred.png') top center no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+.second-page-info{
+    text-align: center;
+}
+
+.info{
+    width: 90%;
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+
+#last-page{
+    background-color: #715EB8;
+}
+
+
+
+.img3{
+    margin-top: 5%;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+}
+.img4{
+    margin-top: 15%;
+    margin-right: 5%;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+}
+.img5{
+    margin-top: 15%;
+    margin-left: 5%;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+}
+
+.container-last{
+    max-width: 1540px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.shop{
+    text-align: center;
+    list-style: none;
+    padding-bottom: 15%;
+}
+
+.li-shop{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.button-shop{
+    font-family: Mont;
+    color: white;
+    width: 160px;
+    height: 50px;
+    border-radius: 44px;
+    background-color: #4A3D78;
+    border-style: none;
+}
+.button-shop:hover{
+    color: black;
+    background-color: white;
+}
